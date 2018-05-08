@@ -84,6 +84,7 @@ public class RequestOptions implements Cloneable {
   private int fields;
   private float sizeMultiplier = 1f;
   @NonNull
+  //默认缓存策略
   private DiskCacheStrategy diskCacheStrategy = DiskCacheStrategy.AUTOMATIC;
   @NonNull
   private Priority priority = Priority.NORMAL;
